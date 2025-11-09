@@ -4,10 +4,14 @@
 ## Alumno: Astrit Airan Cetzal Cetzal
 ## Actividad \#16 - Matrices doc
 
----
+----
+### Para esta actividad resolvimos ejercicios que implican matrices, esto con el fin de documentarlo. Se clasifica a las matrices, se realizan diferentes operaciones como suma y resta con matrices al igual que multiplicaciones entre matrices. 
+
 ### Ejercicio 1: clasificar matrices
 
-Matriz identidad: porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
+##### Para este ejercicio clasificamos las matrices según su dimensión y con respecto a los numeros que contenian dentro de estas.
+
+1. Matriz identidad: porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
 
 $$ A =
 \begin{pmatrix}
@@ -16,7 +20,7 @@ $$ A =
 \end{pmatrix}
 $$
 
-Matriz Diagonal: porque todos los elementos fuera de la diagonal principal son cero.
+2. Matriz Diagonal: porque todos los elementos fuera de la diagonal principal son cero.
 
 $$ B =
 \begin{pmatrix}
@@ -26,7 +30,7 @@ $$ B =
 \end{pmatrix}
 $$
 
-Matriz Cuadrada: porque tiene el mismo número de filas y de columnas.
+3. Matriz Cuadrada: porque tiene el mismo número de filas y de columnas.
 
 $$ C =
 \begin{pmatrix}
@@ -36,7 +40,7 @@ $$ C =
 \end{pmatrix}
 $$
 
-Matriz triangular superior: porque todos los elementos de la diagonal principal son cero.
+4. Matriz triangular superior: porque todos los elementos de la diagonal principal son cero.
 
 $$ D =
 \begin{pmatrix}
@@ -49,7 +53,9 @@ $$
 --------------------------------------
 ### Ejercicio 2: operaciones básicas
 
-#### Suma de A + B
+##### Para este ejercico se realiza una suma, resta, multiplicaciones y la transpuesta de matrices.
+
+#### 1. Suma de A + B
 
 $$ A =
 \begin{pmatrix}
@@ -80,7 +86,7 @@ $$ A + B =
 $$
 
 
-#### Resta de 2A - B
+#### 2. Resta de 2A - B
 
 $$ A =
 \begin{pmatrix}
@@ -128,7 +134,7 @@ $$ 2A - B =
 \end{pmatrix}
 $$
 
-#### AB
+#### 3. AB
 
 $$ A =
 \begin{pmatrix}
@@ -161,7 +167,7 @@ $$ AB =
 \end{pmatrix}
 $$
 
-#### BA
+#### 4. BA
 
 $$ B =
 \begin{pmatrix}
@@ -197,7 +203,7 @@ $$
 
 
 
-#### A^T
+#### 5. A^T
 
 $$ A =
 \begin{pmatrix}
@@ -217,6 +223,8 @@ $$
 
 ### Ejercicio 3: multiplicación en cadena
 
+##### Para este ejercicio se busca desmotrar que la propiedad (AB)C = A(BC) se cumple
+
 #### Verifique que (AB)C = A(BC)
 
 $$ A =
@@ -233,7 +241,7 @@ $$ B =
 \end{pmatrix}
 $$
 
-$$ B =
+$$ C =
 \begin{pmatrix}
 1 & 1 \\
 0 & 2 \\
@@ -241,7 +249,7 @@ $$ B =
 $$
 
 
-AB
+1. Multiplicar AB
 
 $$ AB =
 \begin{pmatrix}
@@ -279,6 +287,8 @@ $$ (AB)C =
 \end{pmatrix}
 $$
 
+2. Multiplicar el resultado de AB por C
+
 $$ (AB)C =
 \begin{pmatrix}
 4  & 4 + 12 \\
@@ -293,7 +303,7 @@ $$ (AB)C =
 \end{pmatrix}
 $$
 
-BC
+3. Multiplicar BC 
 
 $$ BC =
 \begin{pmatrix}
@@ -319,7 +329,7 @@ $$ BC =
 \end{pmatrix}
 $$
 
-(BC)A
+4. Multiplicar (BC)A
 
 $$ (BC)A =
 \begin{pmatrix}
@@ -331,13 +341,23 @@ $$ (BC)A =
 \end{pmatrix}
 $$
 
-$$ (AB)C =
+$$ (BC)A =
 \begin{pmatrix}
 2 + 2 & 2 + 14 \\
 6 + 4 & 6 + 28 \\
 \end{pmatrix}
 $$
 
+$$ (BC)A =
+\begin{pmatrix}
+4  & 16 \\
+10 & 34 \\
+\end{pmatrix}
+$$
+
+#### 5. Podemos conluir que (AB)C = A(BC)
+-Resultado de (AB)C
+
 $$ (AB)C =
 \begin{pmatrix}
 4  & 16 \\
@@ -345,7 +365,7 @@ $$ (AB)C =
 \end{pmatrix}
 $$
 
-#### Podemos conluir que (AB)C = A(BC)
+-Resultado de (BC)A
 
 $$ (AB)C =
 \begin{pmatrix}
@@ -353,17 +373,3 @@ $$ (AB)C =
 10 & 34 \\
 \end{pmatrix}
 $$
-
-$$ (AB)C =
-\begin{pmatrix}
-4  & 16 \\
-10 & 34 \\
-\end{pmatrix}
-$$
-
-
-
-
-
-
-
