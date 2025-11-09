@@ -159,13 +159,13 @@ $$
 - Multiplicar A por B
   
 $$ AB =
-\begin{pmatrix}
+\begin{bmatrix}
 2 * 5 & 2 * 2 \\
 -1 * -1 & -1 * 3 \\
                   \\
 3 * 5 & 3 * 2 \\
 4 * -1 & 4 * 3 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 - Resultado:
@@ -196,13 +196,13 @@ $$
 - Multiplicar B por A
 
 $$ BA =
-\begin{pmatrix}
+\begin{bmatrix}
 5 * 2 & 5 * -1 \\
 2 * 3 & 2 * 4 \\
                   \\
 -1 * 2 & -1 * -1 \\
 3 * 3 & 3 * 4 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 - Resultado:
@@ -265,22 +265,22 @@ $$
 1. Multiplicar AB
 
 $$ AB =
-\begin{pmatrix}
+\begin{bmatrix}
 1 * 2  & 1 * 0 \\
 2 * 1 & 2 * 3 \\
       \\
 3 * 2  & 3 * 0 \\
 4 * 1 & 4 * 3 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 2. Sumar el resultado de AB
 
 $$ AB =
-\begin{pmatrix}
+\begin{bmatrix}
 2 + 2  & 6 \\
 6 + 4 & 12 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 3. Resultado de AB
@@ -295,22 +295,22 @@ $$
 4. Multiplicar (AB)C
 
 $$ (AB)C =
-\begin{pmatrix}
+\begin{bmatrix}
 4 * 1  & 4 * 1 \\
 6 * 0 & 6 * 2 \\
       \\
 10 * 1 & 10 * 1 \\
 12 * 0 & 12 * 2 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 5. Sumar el resultado de AB por C
 
 $$ (AB)C =
-\begin{pmatrix}
+\begin{bmatrix}
 4  & 4 + 12 \\
 10 & 10 + 24 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 6. Resultado de (AB)C
@@ -325,22 +325,22 @@ $$
 7. Multiplicar BC 
 
 $$ BC =
-\begin{pmatrix}
+\begin{bmatrix}
 2 * 1  & 2 * 1 \\
 0 * 0 & 0 * 2 \\
       \\
 1 * 1  & 3 * 0 \\
 3 * 0 & 3 * 2 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 8. Sumar el resultado de BC
    
 $$ BC =
-\begin{pmatrix}
+\begin{bmatrix}
 2 & 2 \\
 1 & 1 + 6 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 9. Resultado de BC
@@ -355,22 +355,22 @@ $$
 10. Multiplicar (BC)A
 
 $$ (BC)A =
-\begin{pmatrix}
+\begin{bmatrix}
 1 * 2  & 1 * 2 \\
 2 * 1 & 2 * 7 \\
       \\
 3 * 2 & 3 * 2 \\
 4 * 1 & 4 * 7 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 11. Sumar el resultado de BC por A
 
 $$ (BC)A =
-\begin{pmatrix}
+\begin{bmatrix}
 2 + 2 & 2 + 14 \\
 6 + 4 & 6 + 28 \\
-\end{pmatrix}
+\end{bmatrix}
 $$
 
 12. Resultado de (BC)A
