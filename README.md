@@ -55,7 +55,7 @@ $$
 
 ##### Para este ejercico se realiza una suma, resta, multiplicaciones y la transpuesta de matrices.
 
-#### 1. Suma de A + B
+#### a) Suma de A + B
 
 $$ A =
 \begin{pmatrix}
@@ -71,12 +71,16 @@ $$ B =
 \end{pmatrix}
 $$
 
+- Sumar A y B
+
 $$ A + B =
 \begin{pmatrix}
 2 + 5 & -1 + 2 \\
 3 + (-1) & 4 + 3 \\
 \end{pmatrix}
 $$
+
+- Resultado:
 
 $$ A + B =
 \begin{pmatrix}
@@ -86,7 +90,7 @@ $$ A + B =
 $$
 
 
-#### 2. Resta de 2A - B
+#### b) Resta de 2A - B
 
 $$ A =
 \begin{pmatrix}
@@ -102,7 +106,7 @@ $$ B =
 \end{pmatrix}
 $$
 
-Multiplicar la matriz A por 2
+1. Multiplicar la matriz A por 2
 
 $$ 2A =
 \begin{pmatrix}
@@ -118,7 +122,7 @@ $$ 2A =
 \end{pmatrix}
 $$ 
 
-Restar 2A - B
+2. Restar 2A - B
 
 $$ 2A - B =
 \begin{pmatrix}
@@ -127,6 +131,8 @@ $$ 2A - B =
 \end{pmatrix}
 $$
 
+3. Resultado:
+
 $$ 2A - B =
 \begin{pmatrix}
 -1 & -4 \\
@@ -134,7 +140,7 @@ $$ 2A - B =
 \end{pmatrix}
 $$
 
-#### 3. AB
+#### c) AB
 
 $$ A =
 \begin{pmatrix}
@@ -150,6 +156,8 @@ $$ B =
 \end{pmatrix}
 $$
 
+- Multiplicar A por B
+  
 $$ AB =
 \begin{pmatrix}
 2 * 5 & 2 * 2 \\
@@ -160,6 +168,8 @@ $$ AB =
 \end{pmatrix}
 $$
 
+- Resultado:
+
 $$ AB =
 \begin{pmatrix}
 11 & 1 \\
@@ -167,7 +177,7 @@ $$ AB =
 \end{pmatrix}
 $$
 
-#### 4. BA
+#### d) BA
 
 $$ B =
 \begin{pmatrix}
@@ -182,6 +192,8 @@ $$ A =
 3 & 4 \\
 \end{pmatrix}
 $$
+
+- Multiplicar B por A
 
 $$ BA =
 \begin{pmatrix}
@@ -193,6 +205,8 @@ $$ BA =
 \end{pmatrix}
 $$
 
+- Resultado:
+
 $$ BA =
 \begin{pmatrix}
 16 & 3 \\
@@ -200,10 +214,7 @@ $$ BA =
 \end{pmatrix}
 $$
 
-
-
-
-#### 5. A^T
+#### e) A^T
 
 $$ A =
 \begin{pmatrix}
@@ -211,6 +222,8 @@ $$ A =
 3 & 4 \\
 \end{pmatrix}
 $$
+
+- Resultado:
 
 $$ A^T =
 \begin{pmatrix}
@@ -223,7 +236,7 @@ $$
 
 ### Ejercicio 3: multiplicación en cadena
 
-##### Para este ejercicio se busca desmotrar que la propiedad (AB)C = A(BC) se cumple
+##### Para este ejercicio se busca desmotrar que la propiedad (AB)C = A(BC) se cumple.
 
 #### Verifique que (AB)C = A(BC)
 
@@ -261,6 +274,8 @@ $$ AB =
 \end{pmatrix}
 $$
 
+2. Sumar el resultado de AB
+
 $$ AB =
 \begin{pmatrix}
 2 + 2  & 6 \\
@@ -268,6 +283,8 @@ $$ AB =
 \end{pmatrix}
 $$
 
+3. Resultado de AB
+   
 $$ AB =
 \begin{pmatrix}
 4  & 6 \\
@@ -275,7 +292,7 @@ $$ AB =
 \end{pmatrix}
 $$
 
-(AB)C
+4. Multiplicar (AB)C
 
 $$ (AB)C =
 \begin{pmatrix}
@@ -287,7 +304,7 @@ $$ (AB)C =
 \end{pmatrix}
 $$
 
-2. Multiplicar el resultado de AB por C
+5. Sumar el resultado de AB por C
 
 $$ (AB)C =
 \begin{pmatrix}
@@ -296,6 +313,8 @@ $$ (AB)C =
 \end{pmatrix}
 $$
 
+6. Resultado de (AB)C
+   
 $$ (AB)C =
 \begin{pmatrix}
 4  & 16 \\
@@ -303,7 +322,7 @@ $$ (AB)C =
 \end{pmatrix}
 $$
 
-3. Multiplicar BC 
+7. Multiplicar BC 
 
 $$ BC =
 \begin{pmatrix}
@@ -315,6 +334,8 @@ $$ BC =
 \end{pmatrix}
 $$
 
+8. Sumar el resultado de BC
+   
 $$ BC =
 \begin{pmatrix}
 2 & 2 \\
@@ -322,6 +343,8 @@ $$ BC =
 \end{pmatrix}
 $$
 
+9. Resultado de BC
+   
 $$ BC =
 \begin{pmatrix}
 2  & 2 \\
@@ -329,7 +352,7 @@ $$ BC =
 \end{pmatrix}
 $$
 
-4. Multiplicar (BC)A
+10. Multiplicar (BC)A
 
 $$ (BC)A =
 \begin{pmatrix}
@@ -341,6 +364,8 @@ $$ (BC)A =
 \end{pmatrix}
 $$
 
+11. Sumar el resultado de BC por A
+
 $$ (BC)A =
 \begin{pmatrix}
 2 + 2 & 2 + 14 \\
@@ -348,6 +373,8 @@ $$ (BC)A =
 \end{pmatrix}
 $$
 
+12. Resultado de (BC)A
+   
 $$ (BC)A =
 \begin{pmatrix}
 4  & 16 \\
@@ -355,8 +382,8 @@ $$ (BC)A =
 \end{pmatrix}
 $$
 
-#### 5. Podemos conluir que (AB)C = A(BC)
--Resultado de (AB)C
+#### 13. Podemos conluir que (AB)C = A(BC)
+- Resultado de (AB)C
 
 $$ (AB)C =
 \begin{pmatrix}
@@ -365,7 +392,7 @@ $$ (AB)C =
 \end{pmatrix}
 $$
 
--Resultado de (BC)A
+- Resultado de (BC)A
 
 $$ (AB)C =
 \begin{pmatrix}
