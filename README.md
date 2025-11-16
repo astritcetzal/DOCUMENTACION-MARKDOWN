@@ -9,5 +9,12 @@
 ## Ejercicios realizados
 
 ### Ejercicio 1: Determinantes 2 x 2
-#### 
+#### enunciado del problema
+#### solucion o respuesta
 ## info general
+--------------------
+
+if (posUltimoPunto > 1 ){
+                System.out.println("Correo invalido: ingresó mas de 2 puntos");
+                valido=false;
+            }
