@@ -298,7 +298,7 @@ $$ A ^T =
 1 & 3 \\
 \end{pmatrix}
 $$
-#### `Calcular la determinanate de A ^T
+#### `Calcular la determinanate de A ^T`
 #### *Paso 1: Multiplicar diagonales*
 #### 2 x 3 = 6
 #### -(1 x 1)= -1
