@@ -17,7 +17,9 @@ y seleccioné
 ...
 menu, formato condiciona, eligir color, minimo, máximo, lo que sea código va entre ``` 
 *Primera imagen*
-como meter la matriz: 
+como meter la matriz:
+
+
 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 ||||
