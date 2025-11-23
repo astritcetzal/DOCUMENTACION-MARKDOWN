@@ -3,7 +3,10 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
 ## 25/11/2025
-## Actividad \# - Matrices doc
+## Actividad \#20 - Documentación de matrices con Git Branches
+## *Grupo:* C
+## El objetivo de esta tarea es documentar de manera clara y detallada el proceso de las fórmulas utilizadas para realizar operaciones matriciales en Microsoft Excel, aplicadas a la manipulación de imágenes.
+## Ejercicios realizados 
 
 ---
 1. Abrir excel
