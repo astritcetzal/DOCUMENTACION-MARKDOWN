@@ -123,6 +123,7 @@ Comprobación
 ---
 
 2. Gauss jordan
+
 $$ A=
 \begin{bmatrix}
 1 & 1 & 1\\
