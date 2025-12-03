@@ -1,23 +1,37 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## 11/11/2025
+## 3/12/2025
 ## Alumno: Astrit Airan Cetzal Cetzal
-## Actividad \#16 - Matrices doc
+## Actividad \#22 - Matrices
 
 ----
-### Para esta actividad resolvimos ejercicios que implican matrices, esto con el fin de documentarlo. Se clasifica a las matrices, se realizan diferentes operaciones como suma y resta con matrices al igual que multiplicaciones entre matrices. 
+### Para esta actividad resolvimos ejercicios que implican matrices, esto con el fin de documentarlo. Apartir de varios metodos (Gauss, Gauss Jordan,inversa, Cramer) encontramos los valores de X, Y y Z . 
 
-### Ejercicio 1: clasificar matrices
+### Ejercicio 1: Resolver con todos los metodos 
 
-##### Para este ejercicio clasificamos las matrices según su dimensión y con respecto a los numeros que contenian dentro de estas.
+##### Gaus 
 
-1. Matriz identidad: porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
+$$
+\begin{Bmatrix}
+x & + y & + z\\ =6 \\
+2x & -y & + z\\ =3 \\
+x & 2y & -z\\ =2 \\
+\end{Bmatrix}
+$$
 
-$$ A =
-\begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
+- Matriz aumentada
+
+$$
+\begin{bmatrix}
+1 & 1 & 1\\
+2 & -1 & 1\\
+1 & 2 & -1\\
+\end{bmatrix}
+\begin{bmatrix}
+-1 \\
+3 \\
+2 \\
+\end{bmatrix}
 $$
 
 2. Matriz Diagonal: porque todos los elementos fuera de la diagonal principal son cero.
